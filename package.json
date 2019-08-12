@@ -1,0 +1,20 @@
+{
+  "name": "leettree",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecgan/leettree.git"
+  },
+  "keywords": [],
+  "author": "Gan Eng Chin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecgan/leettree/issues"
+  },
+  "homepage": "https://github.com/ecgan/leettree#readme"
+}
