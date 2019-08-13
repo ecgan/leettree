@@ -1,7 +1,7 @@
-const test = () =>  {
-    console.log("This is a test message from the leettree package.");
-}
+const serialize = require('./serialize')
+const deserialize = require('./deserialize')
 
 module.exports = {
-    test
+  serialize,
+  deserialize
 }

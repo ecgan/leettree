@@ -59,3 +59,6 @@ typings/
 
 # next.js build output
 .next
+
+# coverage directory specified in jest.config.js
+coverage

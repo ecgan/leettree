@@ -1,10 +1,10 @@
 {
   "name": "leettree",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/ecgan/leettree/issues"
   },
-  "homepage": "https://github.com/ecgan/leettree#readme"
+  "homepage": "https://github.com/ecgan/leettree#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.15.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.8.0"
+  }
 }
