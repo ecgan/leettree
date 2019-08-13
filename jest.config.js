@@ -1,4 +1,7 @@
 module.exports = {
   verbose: true,
-  coverageDirectory: 'coverage'
+  coverageDirectory: 'coverage',
+  collectCoverageFrom: [
+    'src/**/*.js'
+  ]
 }
