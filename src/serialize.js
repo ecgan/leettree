@@ -1,3 +1,9 @@
+/**
+ * Serialize a binary tree to array.
+ *
+ * @param {TreeNode|Object} tree - Binary tree.
+ * @returns {Array} Array representation of the binary tree.
+ */
 const serialize = (tree) => {
   if (!tree) {
     return null
