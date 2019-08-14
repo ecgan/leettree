@@ -1,7 +1,7 @@
 {
   "name": "leettree",
   "version": "0.1.0",
-  "description": "",
+  "description": "Convert array to binary tree and vice versa using level order traversal like LeetCode.",
   "main": "src/index.js",
   "scripts": {
     "test": "jest --coverage"
@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/ecgan/leettree.git"
   },
-  "keywords": [],
+  "keywords": [
+    "algorithm",
+    "array",
+    "binary-tree",
+    "leetcode",
+    "tree"
+  ],
   "author": "Gan Eng Chin",
   "license": "MIT",
   "bugs": {
