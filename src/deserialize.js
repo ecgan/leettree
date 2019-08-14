@@ -1,5 +1,10 @@
 const TreeNode = require('./TreeNode')
 
+/**
+ * Deserialize an array into a binary tree.
+ * @param {Array} array Array representation of a binary tree.
+ * @returns {TreeNode} Binary tree.
+ */
 const deserialize = (array) => {
   if (!Array.isArray(array)) {
     throw new Error('deserialize(): expect parameter to be an array, actual: ' + typeof array)
