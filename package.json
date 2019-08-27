@@ -4,7 +4,9 @@
   "description": "Convert array to binary tree and vice versa using level order traversal like LeetCode.",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
