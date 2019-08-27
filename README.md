@@ -24,31 +24,27 @@ const array = [1, 2, 3, null, null, 6]
 
 // deserialize the array into binary tree.
 const binaryTree = leettree.deserialize(array)
+// TreeNode {
+//   val: 1,
+//   right: TreeNode {
+//     val: 3,
+//     right: null,
+//     left: TreeNode {
+//       val: 6,
+//       right: null,
+//       left: null
+//     }
+//   },
+//   left: TreeNode {
+//     val: 2,
+//     right: null,
+//     left: null
+//   }
+// }
 
-// convert/serialize the binary tree back into array.
+// serialize the binary tree back into array.
 const array2 = leettree.serialize(binaryTree)
-```
-
-Note that if you just want to use only one function, you can require/import it directly.
-
-```javascript
-const serialize = require('leettree/serialize')
-const tree = {
-  val: 1,
-  left: null,
-  right: {
-    val: 3
-  }
-}
-
-const array = serialize(tree)
-// [1, null, 3]
-```
-
-```javascript
-const deserialize = require('leettree/deserialize')
-const array = [1, null, 3]
-const tree = deserialize(array)
+// [1, 2, 3, null, null, 6]
 ```
 
 See the [code and tests](/src) for more usage examples.
