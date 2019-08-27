@@ -1,6 +1,6 @@
 # leettree
 
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Build Status](https://travis-ci.org/ecgan/leettree.svg?branch=master)](https://travis-ci.org/ecgan/leettree) [![codecov](https://codecov.io/gh/ecgan/leettree/branch/master/graph/badge.svg)](https://codecov.io/gh/ecgan/leettree) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 Convert array to binary tree and vice versa using level order traversal like LeetCode!
 
