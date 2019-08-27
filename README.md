@@ -14,6 +14,8 @@ npm install leettree
 
 ## Usage
 
+### Deserialize and Serialize
+
 ```javascript
 // in node.js environment.
 // you can use ES6 import too.
@@ -45,6 +47,17 @@ const binaryTree = leettree.deserialize(array)
 // serialize the binary tree back into array.
 const array2 = leettree.serialize(binaryTree)
 // [1, 2, 3, null, null, 6]
+```
+
+### Creating TreeNode
+
+```javascript
+const TreeNode = require('leettree').TreeNode
+
+const root = new TreeNode(1)
+root.left = new TreeNode(2)
+root.right = new TreeNode(3)
+root.right.left = new TreeNode(6)
 ```
 
 See the [code and tests](/src) for more usage examples.
