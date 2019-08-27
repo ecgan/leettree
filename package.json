@@ -1,6 +1,6 @@
 {
   "name": "leettree",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Convert array to binary tree and vice versa using level order traversal like LeetCode.",
   "main": "src/index.js",
   "scripts": {
